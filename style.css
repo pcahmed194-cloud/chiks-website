@@ -1,3 +1,4 @@
+/* RESET */
 * {
   margin: 0;
   padding: 0;
@@ -15,8 +16,6 @@ header {
   justify-content: space-between;
   padding: 20px 50px;
   background: white;
-  position: sticky;
-  top: 0;
 }
 
 .logo {
@@ -53,7 +52,6 @@ nav a {
   color: black;
   padding: 10px 20px;
   text-decoration: none;
-  width: fit-content;
 }
 
 /* PRODUCTS */
@@ -64,6 +62,7 @@ nav a {
   gap: 30px;
 }
 
+/* CARD */
 .card {
   text-align: center;
   transition: 0.3s;
@@ -73,15 +72,29 @@ nav a {
   transform: scale(1.05);
 }
 
+/* SINGLE IMAGE */
 .card img {
   width: 100%;
 }
 
+/* MULTIPLE IMAGES */
+.images {
+  display: flex;
+  gap: 10px;
+}
+
+.images img {
+  width: 50%;
+  border-radius: 10px;
+}
+
+/* BUTTON */
 .buy {
   display: inline-block;
   margin-top: 10px;
   background: black;
   color: white;
-  padding: 8px 15px;
+  padding: 10px 15px;
   text-decoration: none;
+  border-radius: 20px;
 }
