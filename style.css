@@ -125,3 +125,6 @@ nav a {
 .product-img:hover .front {
   opacity: 0;
 }
+body {
+  background: red;
+}
