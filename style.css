@@ -98,3 +98,30 @@ nav a {
   text-decoration: none;
   border-radius: 20px;
 }
+.product-img {
+  position: relative;
+  width: 100%;
+}
+
+.product-img img {
+  width: 100%;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+/* الصورة اللور مخبية */
+.product-img .back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+
+/* ملي تدوز souris */
+.product-img:hover .back {
+  opacity: 1;
+}
+
+.product-img:hover .front {
+  opacity: 0;
+}
